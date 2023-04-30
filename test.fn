@@ -1,0 +1,10 @@
+include "src/engine.fn";
+
+proc setup()
+    println("Hello world!");
+end
+proc update()
+    println("Update");
+end
+
+init();
