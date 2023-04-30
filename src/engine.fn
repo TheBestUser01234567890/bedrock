@@ -1,0 +1,12 @@
+proc init()
+    global val version = 01;
+    println("init bedrock ver ", version);
+    
+    runtime();
+end
+proc runtime()
+    setup();
+    while (true)
+        update();
+    end
+end
